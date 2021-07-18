@@ -4,6 +4,8 @@ from termcolor import colored
 import colorama
 colorama.init()
 
+# USING WITH BASH => DIR OPEN AND SCANNING 
+
 try:
 	url = argv[1]
 except IndexError:
