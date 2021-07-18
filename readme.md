@@ -32,3 +32,26 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+----------------------------------------------------------
+
+import pyshorteners
+
+
+ACCESS_TOKEN= "YOUR_KEY"
+
+s = pyshorteners.Shortener(api_key=ACCESS_TOKEN)
+expand = s.bitly.expand("https://bit.ly/2NLc1Zq")
+print(expand)
+
+import pyshorteners
+
+-----------------------------------------------------------
+
+ACCESS_TOKEN= "YOUR_KEY"
+
+s = pyshorteners.Shortener(api_key=ACCESS_TOKEN)
+clicks = s.bitly.total_clicks("https://bit.ly/2NLc1Zq")
+print(clicks)
+
+-----------------------------------------------------------
