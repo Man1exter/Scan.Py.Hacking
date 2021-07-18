@@ -37,5 +37,5 @@ with open("dict.txt", "r") as f:
 				exit()
 			except:
 				pass # not found the page
-                print("NOT FOUND THE PAGE")
+                # print("NOT FOUND THE PAGE")
 print(">>> End of SCANNING!")
